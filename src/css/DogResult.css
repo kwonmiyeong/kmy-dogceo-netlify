@@ -1,0 +1,53 @@
+
+#dog-result{
+    width:90%;
+    /* height:450px; */
+    /* background-color: chartreuse; */
+    padding-top:30px;
+    padding-bottom:100px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+#img-wrap{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    /* background-color: darkgreen; */
+}
+
+#img-wrap>h1{
+    background-color: #888;
+    width:90%;
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#img-wrap>img{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 470px) {
+
+} 
+
+@media (max-width: 420px) {
+
+    #img-wrap{
+        width:90%;
+    }
+
+    #img-wrap>h1{
+        width:90%;
+    }
+
+    #img-wrap>img{
+        display: block;
+        margin:0 auto;
+    }
+}

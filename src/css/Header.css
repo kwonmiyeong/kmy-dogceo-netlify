@@ -1,0 +1,45 @@
+
+#header{
+    width:90%;
+    height:120px;
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding-top:20px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+#header>h1{
+    display:inline-block;
+    height: 30px;
+}
+
+#header>h1>img{
+    width:100px;
+    height:100px;
+}
+#header>h1>span{
+    /* background-color: darkgoldenrod; */
+    position: relative;
+    top:-10px;
+}
+
+@media (max-width: 470px) {
+
+} 
+
+@media (max-width: 420px) {
+
+    #header{
+        height:170px;
+    }
+
+    #header>h1>img{
+        display:block;
+        margin:0 auto;
+    }
+
+    #header>h1>span{
+        top:10px;
+    }
+} 

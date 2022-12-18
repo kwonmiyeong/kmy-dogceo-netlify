@@ -1,0 +1,66 @@
+
+#dog-input{
+    width:90%;
+    height:100px;
+    /* background-color: antiquewhite; */
+    padding-top:20px;
+    padding-left:50px;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+#dog-input>#select-wrap{
+    width:80%;
+    height:45px;
+    background-color: #777;
+    border-radius: 10px;
+    display:inline-block;
+    padding-top:7px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+#dog-input>#select-wrap>select{
+    width:80%;
+    height:30px;
+    border-radius: 10px;
+    padding-left:20px;
+    box-sizing: border-box;
+    margin-right:10px;
+    display:block;
+    margin:0 auto;
+    font-size:20px;
+    font-weight: bold;
+    cursor:pointer;
+}
+#dog-input>#select-wrap>select>option{
+    font-size:20px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#dog-input>button{
+    background-color: #1a91db;
+    width:100px;
+    height:45px;
+    border:none;
+    cursor:pointer;
+    border-radius: 10px;
+    display:inline-block;
+}
+
+@media (max-width: 800px) {
+
+    #dog-input{
+        height:140px;
+    }
+
+    #dog-input>button{
+        width:80%;
+        margin-top:10px;
+        transition: 0.5s;
+    }
+} 
+
+@media (max-width: 420px) {
+
+} 
